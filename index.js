@@ -12,7 +12,9 @@ function sayHiToGrandma(){
   var lovUnswer = "I love you, too.";
   var uppercase = 'HI GRANDMA';
   var lowercase = 'hi grandma';
-
+function sayHiToGrandma (aWord) {
+  var cantUnswer = "I can't hear you!";
+  if (aWord.toLowerCase(aWord) === aWord) return cantUnswer;
   }
   else if (uppercase.toUpperCase() === uppercase) {
     return yesUnswer;
