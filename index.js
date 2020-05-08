@@ -7,10 +7,10 @@ function whisper(string) {return string .toLowerCase()}
 function logShout(string) {console.log(string .toUpperCase());}
 function logWhisper(string) {console.log(string .toLowerCase());}
 function sayHiToGrandma(string){
-  var cantUnswer = "I can't hear you!";
-  var yesUnswer = "YES INDEED!";
-  var lovUnswer = "I love you, too.";
-  if (string.toLowerCase()===string){return cantUnswer;}
-  else if (string.toUpperCase()===string){return yesUnswer;}
-  else if ("I love you, Grandma"===string){return lovUnswer;}
+  var cantHear = "I can't hear you!";
+  var canHear = "YES INDEED!";
+  var willHear = "I love you, too.";
+  if (string.toLowerCase()===string){return cantHear;}
+  else if (string.toUpperCase()===string){return cantHear;}
+  else if (string==='I love you, Grandma!'){return willHear;}
 }
