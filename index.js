@@ -2,3 +2,22 @@ function shout(string) {return string .toUpperCase()}
 function whisper(string) {return string .toLowerCase()}
 function logShout(string) {(console.log() .toUpperCase())}
 function logWhisper(string) {console.log() .toLowerCase()}
+function shout(string) {return string .toUpperCase()}
+function whisper(string) {return string .toLowerCase()}
+function logShout(string) {console.log(string .toUpperCase());}
+function logWhisper(string) {console.log(string .toLowerCase());}
+function sayHiToGrandma(){
+  var cantUnswer = "I can't hear you!";
+  var yesUnswer = "YES INDEED!";
+  var lovUnswer = "I love you, too.";
+  var uppercase = 'HI GRANDMA';
+  var lowercase = 'hi grandma';
+  if (lowercase.toLowerCase() === lowercase) {
+    return cantUnswer;
+  }
+  else if (uppercase.toUpperCase() === uppercase) {
+    return yesUnswer;
+  }
+  else if ("I love you, Grandma.") {
+    return lovUnswer;
+  }}
